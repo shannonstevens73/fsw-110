@@ -1,5 +1,5 @@
 
 
 var hello = document.getElementById("hello");
-hello.textContent = "This just got added";
+hello.textContent = "Hello!! I have text!";
 console.log("hello");
