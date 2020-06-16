@@ -20,7 +20,7 @@ const names = [
     "emily"
 ]
 
-// Unrdered List Element
+// Unordered List Element
 var namesList = document.createElement("ul")
 document.body.append(namesList)
 
