@@ -1,0 +1,96 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;   
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-top: 75px;
+  }
+
+  #square {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;   
+    width: 200px;
+    height: 150px;
+    background-color: #F5C6D6;
+  
+  }
+
+  #square2 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+  }
+
+  #square3 {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+    width: 200px;
+    height: 150px;
+    background-color: lightgreen;
+  }
+
+  #add1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #add2 {
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #addButton {
+    margin-top: 5px;
+    margin-left: 77px;
+  }
+
+  #addResult {
+    margin-left: 65px;
+  }
+
+  
+  #sub1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #sub2 {
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #subButton {
+    margin-top: 5px;
+    margin-left: 65px;
+  }
+
+  #subResult {
+    margin-left: 65px;
+  }
+
+  
+  #mul1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #mul2 {
+    margin-bottom: 5px;
+    margin-left: 17px;
+  }
+
+  #mulButton {
+    margin-top: 5px;
+    margin-left: 70px;
+  }
+
+  #mulResult {
+    margin-left: 65px;
+  }
+  
