@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Plans Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div #id="grid-container">
+            <h4 id="header">Enter information below, then click Submit</h4>
+            <form name="myForm" id="myForm">
+                <input type="text" id="input1" name="firstName" value="" placeholder="First Name"/><br/>
+                <input type="text" id="input2" name="lastName" value="" placeholder="Last Name"/><br/>
+                <input type="number" id="input3" name="age" value="" placeholder="Age"/> <br/><br/>
+
+                Male:   <input type="radio" class="gender" name="gender" value="Male"/>
+                Female: <input type="radio" class="gender" name="gender" value="Female"/> <br/><br/>         
+                
+                <select id="dropBox" name="city">
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New Orleans">New Orleans</option>
+                </select><br/><br/>
+
+                Do you have any dietary restrictions? Select all that apply:<br/>
+                Vegetarian: <input type="checkbox" value="Vegetarian" name="food"/>
+                Kosher: <input type="checkbox" value=" Kosher" name="food"/>
+                Lactose Free: <input type="checkbox" value=" Lactose Free" name="food"/>
+
+                <br/>             
+                <button id="button">Submit</button>
+            </form>        
+
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>

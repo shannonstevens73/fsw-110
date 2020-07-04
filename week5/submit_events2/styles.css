@@ -1,0 +1,57 @@
+
+* {
+    background-color: blanchedalmond;
+}
+
+#grid-container {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#header {
+    grid-column: 2 / 3;
+    margin-top: 20px;
+}
+
+#myForm {
+    grid-column: 2 / 3;
+    margin-top: 20px;
+}
+
+#input1 {
+    grid-column: 2 / 3;
+    background-color: white;
+    margin-left: 50px;
+}
+
+#input2 {
+    grid-column: 2 / 3;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#input3 {
+    grid-column: 2 / 3;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.gender {
+    margin-top: 20px;
+}
+
+#dropBox {
+    background-color: white;
+    margin-top: 20px;
+}
+
+#button {
+    
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-left: 105px;
+}
