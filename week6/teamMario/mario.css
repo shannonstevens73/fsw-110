@@ -1,0 +1,62 @@
+
+.header {
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    margin: 30px 30px;
+}
+body {
+font-family: 'Modak', cursive;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+background-color: dodgerblue;
+}
+.image1 {
+    height: 100px;
+    width: 100px;
+}
+.image2 {
+    height: 100px;
+    width: 100px;
+}
+.image3 {
+    height: 100px;
+    width: 100px;
+}
+.list1 {
+    font-weight: bold;
+    font-size: 26px;
+}
+.list2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+.list3 {
+    font-weight: bold;
+    font-size: 26px;
+}
+ul {
+    list-style-type: none;
+    color: firebrick;
+}
+ul.li {
+    font-weight: bold;
+}
+.header2 {
+    color: black;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.total {
+    color: firebrick;
+    font-size: 28px;
+    font-weight: bolder;
+}
+footer {
+    margin-top: 80px;
+}
+@media only screen and (max-width: 680px) {
+.header {
+    font-size: 40px;
+}
+}

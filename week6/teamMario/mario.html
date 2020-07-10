@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mario's Pest Control</title>
+    <link rel = "stylesheet" type = "text/css" href = Mario.css>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Modak&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="header"> Mario's Pest Control</h1>
+    <div id = "baddies"> 
+        <ul>
+            <img class="image1" src="https://vignette.wikia.nocookie.net/nintendo/images/c/c9/Artwork_-_GOOMBA.svg/revision/latest?cb=20160218151506&path-prefix=en">
+            <br><br>
+            <li class="list1"> Goombas: 5 coins </li>
+            <br>
+            <input type="number" id="n1"/>
+            <br/><br/>
+            <img class="image2" src ="https://vignette.wikia.nocookie.net/mario/images/8/8c/Bob-omb%2C_New_Super_Mario_Bros._U.png/revision/latest?cb=20121119023919">
+            <br><br>
+            <li class="list2"> Bob-ombs: 7 coins </li>
+            <br>
+            <input type="number" id="n2"/>
+            <br/><br/>
+            <img class="image3" src="https://vignette2.wikia.nocookie.net/mario/images/e/e9/Cheep-Cheep_Art_%28Super_Mario_Bros.%29.png/revision/latest?cb=20121201195020">
+            <br><br>
+            <li class="list3"> Cheep-cheeps: 11 coins </li>
+            <br>
+            <input type="number" id="n3"/>
+            <br><br>
+        </ul>
+    </div>
+    <div id = "Input">
+        <h1 class="header2"> Cost Estimation </h1>
+        <select id="operators">
+            <option value="+">+</option>
+        </select>
+        <button id="addButton">Total</button> 
+        <br/><br/>
+        <span class="total">Total Cost: <span id="result"></span></span>
+    </div>
+<footer>
+    <h3> Contact Us</h3>
+    <p> Nintendo, 2500 Mario Ave Chicago, IL 60647</p>
+    <p> mario64@gmail.com</p>
+    <p><a href = "#mario.html">mariospestcontrol.com</a></p>
+</footer>
+<script src = "mario.js"></script>
+</body>
+</html>
