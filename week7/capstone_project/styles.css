@@ -1,0 +1,114 @@
+
+
+* {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+    #header {
+        color: Navy;
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #htmlP {
+        color: Navy;
+        font-size: medium;
+        text-align: center;
+    }
+
+    #myForm {
+        text-align: center;
+    }
+
+    #title {
+        background-color: white; 
+        width: 200px;
+        height: 20px;
+    }
+
+    #description {
+        background-color: white;
+        margin-top: 10px;
+        width: 200px;
+        height: 20px;
+    }
+
+    #button {
+        background-color: lightgray;
+        margin-top: 10px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+     .newTitle {
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+    .newDes {
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+
+    .deleteButton {
+        margin-top: 15px;
+        margin-right: 40px;
+    } 
+}
+
+@media only screen and (min-width: 651px) {
+    #header {
+        color: Navy;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #htmlP {
+        color: Navy;
+        font-size: 20px;
+        text-align: center; 
+    }
+
+    #myForm {
+        text-align: center;
+    }
+
+    #title {
+        background-color: white; 
+        width: 250px;
+        height: 25px;
+    }
+
+    #description {
+        background-color: white;
+        margin-top: 10px;
+        width: 250px;
+        height: 25px;
+    }
+
+    #button {
+        background-color: lightgray;
+        margin-top: 10px;
+    }
+
+    .newTitle {
+        margin-left: 430px;
+    }
+
+    .newDes {
+        margin-left: 430px;
+    }
+
+    .deleteButton {
+        margin-left: 430px;
+    }
+
+}
